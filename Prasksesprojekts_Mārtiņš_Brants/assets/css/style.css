@@ -1,0 +1,50 @@
+.topnav {
+    position: absolute;
+width: 1366px;
+height: 92.51px;
+left: 0px;
+top: 0px;
+background: #FFFFFF;
+text-align: center;
+}
+
+a{
+    width: 130px;
+    height: 24px;
+    left: 386px;
+    top: 51px;
+    padding: 27px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #060606;
+    
+    
+}
+.vector{
+position: absolute;
+left: -0.07%;
+right: 0%;
+top: 2.33%;
+bottom: 96.71%;
+
+background: #FFFFFF;
+}
+.sparkle video{
+position: absolute;
+width: 1366px;
+height: 722px;
+left: 0px;
+top: 47px;
+}
+
+.BlackLogo{
+    position: absolute;
+    width: 159px;
+    height: 146px;
+    left: 62px;
+    top: -50px;
+}
