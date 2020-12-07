@@ -1,18 +1,17 @@
 html,body{
-    width: 1366px;
-    height: 3651px;
+    width: 100%;
     position: absolute;
     margin:0 auto;
 }
 
 .topnav {
-width: 100%;
+width: 1366px;
 height: 92.51px;
 left: 0px;
 top: 0px;
 background: #FFFFFF;
 text-align:right;
-line-height: 128px;
+line-height: 200px;
 
 font-family: Montserrat;
     font-style: normal;
@@ -21,8 +20,7 @@ font-family: Montserrat;
     color: #060606;
 }
 #a-topnav{
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-right: 39px;
 }
 a{
     text-decoration:none;
@@ -42,12 +40,17 @@ a{
     bottom: 96.71%;
 background: #FFFFFF;
 }
-.sparkle video{
-position: absolute;
+.sparkle_video{
 width: 1366px;
+position:absolute;
 height: 722px;
 left: 0px;
-top: 47px;
+top: 147px; 
+
+background-image: url("../img/sparkle.png"); /* The image used */
+background-color: red; /* Used if the image is unavailable */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 .BlackLogo{
@@ -55,37 +58,40 @@ top: 47px;
     width: 159px;
     height: 146px;
     left: 62px;
-    top: -50px;
+    top: 0px;
 }
 .text1{
     position: absolute;
-width: 537px;
-height: 114px;
-left: 359px;
-top: 919px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 22px;
-text-align: center;
-
-color: #2F4858;
+    width: 661px;
+    height: 114px;
+    left: 359px;
+    top: 919px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    
+    color: #2F4858;
+    
+    
 }
 
 .ripped-sparkle{
     position: absolute;
     left: -0.00%;
+    width: 1366px;
     right: 0%;
-    top: 2.33%;
+    top: 24.6%;
     bottom: 96.71%;
 }
 .ripped{
     position: absolute;
 width: 1366px;
 height: 55px;
-top: 1183px;
+top: 1182px;
 }
 .ripped2{
     position: absolute;
@@ -104,6 +110,11 @@ transform: rotate(-180deg);
 height: 355px;
 left: 0px;
 top: 1197px;
+
+background-image: url("../img/Zanda.jpg"); /* The image used */
+background-color: red; /* Used if the image is unavailable */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover; /* Resize the background image to cover the entire container */
 }
 .sibilla{
     position: absolute;
@@ -111,6 +122,11 @@ width: 334px;
 height: 364px;
 left: 328px;
 top: 1202px;
+
+background-image: url("../img/Sibilla.jpg"); /* The image used */
+background-color: red; /* Used if the image is unavailable */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover; /* Resize the background image to cover the entire container */
 }
 .brinuma_meita{
     position: absolute;
@@ -118,6 +134,11 @@ width: 298px;
 height: 180px;
 left: 662px;
 top: 1202px;
+
+background-image: url("../img/Brinuma_meita.jpg"); /* The image used */
+background-color: red; /* Used if the image is unavailable */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover; /* Resize the background image to cover the entire container */
 }
 .alina{
     position: absolute;
@@ -125,6 +146,11 @@ width: 298px;
 height: 184px;
 left: 662px;
 top: 1382px;
+
+background-image: url("../img/Alina_1.jpg"); /* The image used */
+background-color: red; /* Used if the image is unavailable */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover; /* Resize the background image to cover the entire container */
 }
 .anda{
     position: absolute;
@@ -132,6 +158,12 @@ width: 406px;
 height: 383px;
 left: 960px;
 top: 1183px;
+
+background-image: url("../img/Anda_2\ 1\(1\).jpg"); /* The image used */
+background-color: red; /* Used if the image is unavailable */
+background-position: center; /* Center the image */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover; /* Resize the background image to cover the entire container */
 }
 .qtext1{
     position: absolute;
@@ -238,6 +270,11 @@ top: 2171px;
 background: rgba(196, 196, 196, 0.4);
 border-radius: 6px;
 border:none;
+}
+.multiple-images{
+    align-items: center;
+    width: 100%;
+    height: 383px;
 }
 .textarea{
     position: absolute;
@@ -374,8 +411,9 @@ color: #2F4858;
     position: absolute;
 left: 0%;
 right: 0%;
-top: 91.9%;
+top: 636.9%;
 bottom: 0%;
+width: 1366px;
 height: 324px;
 
 background: #2F4858;
@@ -384,8 +422,9 @@ background: #2F4858;
     position: absolute;
 left: 0%;
 right: 0%;
-top: 90.76%;
+top: 626.6%;
 bottom: 8.61%;
+width: 1366px;
 transform: rotate(-180deg);
 }
 .GoldenLogo{
@@ -522,3 +561,89 @@ color: #FFFFFF;
 
 
 }
+.title-ideja{
+    position: absolute;
+width: 182px;
+height: 70px;
+left: 592px;
+top: 205px;
+
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 71px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #2F4858;
+}
+
+.text-ideja{
+    position: absolute;
+width: 606px;
+height: 112px;
+left: 380px;
+top: 335px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+
+color: #2F4858;
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url("../fonts/Oswald-Bold.ttf")
+  }
+  @font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Medium.ttf")
+  }
+  .juris{
+    position: absolute;
+    width: 1366px;
+    height: 701px;
+    left: 0px;
+    top: 597px;
+    
+    background: url(../img/Juris\ \(1\)\ 1.jpg);
+  }
+  .juris-text{
+    position: absolute;
+    width: 818px;
+    height: 108px;
+    left: 220px;
+    top: 527px;
+    
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    
+    color: #FFFFFF;
+  }
+  .juris-ripped{
+    position: absolute;
+    width: 1366px;
+    height: 55px;
+    top: 652px;
+    
+    background: url(../img/ripped.png);
+    transform: rotate(-180deg);
+  }
+  .juris-ripped2{
+    position: absolute;
+    width: 1366px;
+    height: 55px;
+    top: -1px;
+    
+    background: url(../img/ripped.png);
+  }
