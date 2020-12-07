@@ -1,36 +1,45 @@
-.topnav {
+html,body{
+    width: 1366px;
+    height: 3651px;
     position: absolute;
-width: 1366px;
+    margin:0 auto;
+}
+
+.topnav {
+width: 100%;
 height: 92.51px;
 left: 0px;
 top: 0px;
 background: #FFFFFF;
-text-align: center;
-}
+text-align:right;
+line-height: 128px;
 
-a{
-    width: 130px;
-    height: 24px;
-    left: 386px;
-    top: 51px;
-    padding: 27px;
-    font-family: Montserrat;
+font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    line-height: 22px;
-    
     color: #060606;
-    
-    
+}
+#a-topnav{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+a{
+    text-decoration:none;
+    color: inherit;
+    font-style:inherit;
+    font-family: inherit;
+    font-weight:inherit;
+    font-size:inherit;
+    padding-left:inherit;
+    padding-right:inherit;
 }
 .vector{
-position: absolute;
-left: -0.07%;
-right: 0%;
-top: 2.33%;
-bottom: 96.71%;
-
+    position: absolute;
+    left: -0.07%;
+    right: 0%;
+    top: 2.33%;
+    bottom: 96.71%;
 background: #FFFFFF;
 }
 .sparkle video{
@@ -47,4 +56,469 @@ top: 47px;
     height: 146px;
     left: 62px;
     top: -50px;
+}
+.text1{
+    position: absolute;
+width: 537px;
+height: 114px;
+left: 359px;
+top: 919px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+
+color: #2F4858;
+}
+
+.ripped-sparkle{
+    position: absolute;
+    left: -0.00%;
+    right: 0%;
+    top: 2.33%;
+    bottom: 96.71%;
+}
+.ripped{
+    position: absolute;
+width: 1366px;
+height: 55px;
+top: 1183px;
+}
+.ripped2{
+    position: absolute;
+width: 1366px;
+height: 55px;
+left: 0px;
+top: 1526px;
+transform: rotate(-180deg);
+
+
+}
+
+.zanda{
+    position: absolute;
+    width: 328px;
+height: 355px;
+left: 0px;
+top: 1197px;
+}
+.sibilla{
+    position: absolute;
+width: 334px;
+height: 364px;
+left: 328px;
+top: 1202px;
+}
+.brinuma_meita{
+    position: absolute;
+width: 298px;
+height: 180px;
+left: 662px;
+top: 1202px;
+}
+.alina{
+    position: absolute;
+width: 298px;
+height: 184px;
+left: 662px;
+top: 1382px;
+}
+.anda{
+    position: absolute;
+width: 406px;
+height: 383px;
+left: 960px;
+top: 1183px;
+}
+.qtext1{
+    position: absolute;
+width: 394px;
+height: 29px;
+left: 220px;
+top: 1731px;
+
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+
+color: #2F4858;
+}
+.qtext2{
+    position: absolute;
+width: 501px;
+height: 29px;
+left: 698px;
+top: 1731px;
+
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+
+color: #2F4858;
+}
+
+.button1{
+    position: absolute;
+    width: 182.67px;
+    height: 50px;
+    left: 325.17px;
+    top: 1810px;
+    border-radius: 30px;
+    background-color:#FFA800;
+    border:none;
+    color:white;
+}
+.button2{
+    position: absolute;
+    width: 184.63px;
+    height: 50px;
+    left: 856.19px;
+    top: 1810px;
+    border-radius: 30px;
+    color:white;
+    border:none;
+    background-color:#FFA800;
+}
+
+.formasText{
+    position: absolute;
+width: 819px;
+height: 48px;
+left: 274px;
+top: 2010px;
+
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 44px;
+text-align: center;
+color: #2F4858;
+
+
+}
+.inputfield-name{
+    position: absolute;
+width: 296px;
+height: 43px;
+left: 377px;
+top: 2113px;
+
+background: rgba(196, 196, 196, 0.4);
+border-radius: 6px;
+border: none;
+}
+.inputfield-email{
+    position: absolute;
+width: 296px;
+height: 43px;
+left: 693px;
+top: 2113px;
+
+background: rgba(196, 196, 196, 0.4);
+border-radius: 6px;
+border: none;
+}
+.inputfield-tel{
+    position: absolute;
+width: 612px;
+height: 43px;
+left: 377px;
+top: 2171px;
+
+background: rgba(196, 196, 196, 0.4);
+border-radius: 6px;
+border:none;
+}
+.textarea{
+    position: absolute;
+width: 612px;
+height: 232px;
+left: 377px;
+top: 2229px;
+
+background: rgba(196, 196, 196, 0.4);
+border-radius: 6px;
+border: none;
+}
+
+.smalltext{
+    position: absolute;
+width: 612px;
+height: 25px;
+left: 377px;
+top: 2476px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+color: #2F4858;
+}
+.consent{
+    position: absolute;
+width: 572px;
+height: 39px;
+left: 417px;
+top: 2526px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+color: #2F4858;
+}
+.inputCheck{
+    position: absolute;
+width: 16px;
+height: 41px;
+left: 380px;
+top: 2529px;
+}
+.poga{
+    position: absolute;
+width: 182px;
+height: 62px;
+left: 592px;
+top: 2615px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+align-items: center;
+text-align: center;
+border-radius: 30px;
+border: none;
+
+color: #FFFFFF;
+background-color:#FFA800;
+}
+
+.atbalstitaji{
+    position: absolute;
+width: 1366px;
+height: 533.32px;
+left: 0px;
+top: 2827px;
+
+background: #FFCB66;
+}
+.teikums{
+    position: absolute;
+width: 241.95px;
+height: 80px;
+left: 168px;
+top: 3045px;
+
+}
+.sem-logo{
+    position: absolute;
+width: 209.32px;
+height: 80px;
+left: 495px;
+top: 3045px;
+}
+.citybee{
+    position: absolute;
+width: 238.96px;
+height: 80px;
+left: 789px;
+top: 3045px;
+}
+.linearis{
+    position: absolute;
+width: 84.77px;
+height: 120px;
+left: 1113px;
+top: 3026px;
+}
+.ripped3{
+    position: absolute;
+width: 1366px;
+height: 55px;
+left: 0px;
+top: 2827px;
+}
+.atbalstitaji-text{
+    position: absolute;
+width: 394px;
+height: 29px;
+left: 486px;
+top: 2900px;
+
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+
+color: #2F4858;
+}
+.footer{
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 91.9%;
+bottom: 0%;
+height: 324px;
+
+background: #2F4858;
+}
+.ripped4{
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 90.76%;
+bottom: 8.61%;
+transform: rotate(-180deg);
+}
+.GoldenLogo{
+    position: absolute;
+left: 4.54%;
+right: 82.14%;
+top: 8.41%;
+bottom: 32.18%;
+}
+.copyright-text{
+    position: absolute;
+left: 4.54%;
+right: 82.14%;
+top: 76.44%;
+bottom: 3.46%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+color: #FFFFFF;
+}
+#footertext{
+    position: absolute;
+left: 28.11%;
+right: 66.91%;
+top: 12.62%;
+bottom: 74.73%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 33px;
+color: #FFFFFF;
+width: 200px;
+}
+
+.footertext2{
+    position: absolute;
+    left: 47%;
+    right: 32.58%;
+    top: 20.89%;
+    bottom: 53.99%;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 0px;
+    
+    color: #FFFFFF;
+}
+.TitleFooter{
+    position: absolute;
+    left: 47%;
+    right: 31.99%;
+    top: 4.62%;
+    bottom: 75%;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #FFFFFF;
+}
+.TitleFooter2{
+    position: absolute;
+left: 81.99%;
+right: 4.69%;
+top: 4.62%;
+bottom: 69.15%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+text-align: right;
+
+color: #FFFFFF;
+}
+.footertext3{
+    position: absolute;
+left: 66.47%;
+right: 4.69%;
+top: 20.89%;
+bottom: 63.3%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 0px;
+text-align: right;
+
+color: #FFFFFF;
+}
+.SocialMedia{
+    position: absolute;
+left: 89.39%;
+right: 9.3%;
+top: 58.82%;
+bottom: 22.61%;
+
+}
+.SocialMedia2{
+    position: absolute;
+left: 92.83%;
+right: 4.54%;
+top: 58.82%;
+bottom: 22.61%;
+
+}
+.privatuma-politika{
+    position: absolute;
+left: 81.55%;
+right: 4.54%;
+top: 76.44%;
+bottom: 5.32%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+text-align: right;
+
+color: #FFFFFF;
+
+
 }
