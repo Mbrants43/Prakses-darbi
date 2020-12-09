@@ -45,11 +45,6 @@ width: 100%;
 position:absolute;
 height: 722px;
 top: 147px; 
-
-background-image: url("../img/sparkle.png"); /* The image used */
-background-color: red; /* Used if the image is unavailable */
-background-repeat: no-repeat; /* Do not repeat the image */
-background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 .BlackLogo{
@@ -78,7 +73,7 @@ background-size: cover; /* Resize the background image to cover the entire conta
     
 }
 .text1-brake{
-    width: 661px;
+    width: 50%;
     margin: auto;
 }
 .ripped-sparkle{
@@ -92,8 +87,12 @@ background-size: cover; /* Resize the background image to cover the entire conta
 .ripped{
     position: absolute;
     width: 100%;
-height: 55px;
-top: 1182px;
+    height: 55px;
+    top: 1182px;
+
+    background-image: url("../img/ripped.png"); /* The image used */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover; /* Resize the background image to cover the entire container */
 }
 .ripped2{
     position: absolute;
@@ -103,75 +102,57 @@ left: 0px;
 top: 1526px;
 transform: rotate(-180deg);
 
+background-image: url("../img/ripped.png"); /* The image used */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover; /* Resize the background image to cover the entire container */
+}
 
+.multiple-images {
+    width: 100%;
+    height: 383px;
+    top: 1211px;
 }
 
 .zanda{
     position: absolute;
-    width: 328px;
+    width: 25%;
 height: 355px;
 left: 0px;
 top: 1197px;
-
-background-image: url("../img/Zanda.jpg"); /* The image used */
-background-color: red; /* Used if the image is unavailable */
-background-repeat: no-repeat; /* Do not repeat the image */
-background-size: cover; /* Resize the background image to cover the entire container */
 }
 .sibilla{
     position: absolute;
-width: 334px;
+width: 25%;
 height: 364px;
-left: 328px;
+left: 25%;
 top: 1202px;
-
-background-image: url("../img/Sibilla.jpg"); /* The image used */
-background-color: red; /* Used if the image is unavailable */
-background-repeat: no-repeat; /* Do not repeat the image */
-background-size: cover; /* Resize the background image to cover the entire container */
 }
 .brinuma_meita{
     position: absolute;
-width: 298px;
+width: 25%;
 height: 180px;
-left: 662px;
+left: 50%;
 top: 1202px;
-
-background-image: url("../img/Brinuma_meita.jpg"); /* The image used */
-background-color: red; /* Used if the image is unavailable */
-background-repeat: no-repeat; /* Do not repeat the image */
-background-size: cover; /* Resize the background image to cover the entire container */
 }
 .alina{
     position: absolute;
-width: 298px;
+width: 25%;
 height: 184px;
-left: 662px;
+left: 50%;
 top: 1382px;
-
-background-image: url("../img/Alina_1.jpg"); /* The image used */
-background-color: red; /* Used if the image is unavailable */
-background-repeat: no-repeat; /* Do not repeat the image */
-background-size: cover; /* Resize the background image to cover the entire container */
 }
 .anda{
     position: absolute;
-width: 406px;
+width: 25%;
 height: 383px;
-left: 960px;
+left: 75%;
 top: 1183px;
-
-background-image: url("../img/Anda_2\ 1\(1\).jpg"); /* The image used */
-background-color: red; /* Used if the image is unavailable */
-background-position: center; /* Center the image */
-background-repeat: no-repeat; /* Do not repeat the image */
-background-size: cover; /* Resize the background image to cover the entire container */
 }
 .qtext1{
     position: absolute;
-width: 394px;
+width: 50%;
 height: 29px;
-left: 220px;
+left: 2%;
 top: 1731px;
 
 font-family: Oswald;
@@ -185,9 +166,9 @@ color: #2F4858;
 }
 .qtext2{
     position: absolute;
-width: 501px;
+width: 50%;
 height: 29px;
-left: 698px;
+left: 49%;
 top: 1731px;
 
 font-family: Oswald;
@@ -202,9 +183,9 @@ color: #2F4858;
 
 .button1{
     position: absolute;
-    width: 182.67px;
+    width: 17%;
     height: 50px;
-    left: 325.17px;
+    left: 17%;
     top: 1810px;
     border-radius: 30px;
     background-color:#FFA800;
@@ -213,9 +194,9 @@ color: #2F4858;
 }
 .button2{
     position: absolute;
-    width: 184.63px;
+    width: 17%;
     height: 50px;
-    left: 856.19px;
+    left: 67%;
     top: 1810px;
     border-radius: 30px;
     color:white;
@@ -225,9 +206,8 @@ color: #2F4858;
 
 .formasText{
     position: absolute;
-width: 819px;
+width: 100%;
 height: 48px;
-left: 274px;
 top: 2010px;
 
 font-family: Oswald;
@@ -242,9 +222,9 @@ color: #2F4858;
 }
 .inputfield-name{
     position: absolute;
-width: 296px;
+width: 19%;
 height: 43px;
-left: 377px;
+left: 30%;
 top: 2113px;
 
 background: rgba(196, 196, 196, 0.4);
@@ -253,9 +233,9 @@ border: none;
 }
 .inputfield-email{
     position: absolute;
-width: 296px;
+width: 19%;
 height: 43px;
-left: 693px;
+left: 50%;
 top: 2113px;
 
 background: rgba(196, 196, 196, 0.4);
@@ -264,25 +244,20 @@ border: none;
 }
 .inputfield-tel{
     position: absolute;
-width: 612px;
+width: 39%;
 height: 43px;
-left: 377px;
+left: 30%;
 top: 2171px;
 
 background: rgba(196, 196, 196, 0.4);
 border-radius: 6px;
 border:none;
 }
-.multiple-images{
-    align-items: center;
-    width: 100%;
-    height: 383px;
-}
 .textarea{
     position: absolute;
-width: 612px;
+width: 39%;
 height: 232px;
-left: 377px;
+left: 30%;
 top: 2229px;
 
 background: rgba(196, 196, 196, 0.4);
@@ -292,9 +267,9 @@ border: none;
 
 .smalltext{
     position: absolute;
-width: 612px;
+width: 100%;
 height: 25px;
-left: 377px;
+left: 30%;
 top: 2476px;
 
 font-family: Montserrat;
@@ -309,7 +284,7 @@ color: #2F4858;
     position: absolute;
 width: 572px;
 height: 39px;
-left: 417px;
+left: 32%;
 top: 2526px;
 
 font-family: Montserrat;
@@ -324,14 +299,14 @@ color: #2F4858;
     position: absolute;
 width: 16px;
 height: 41px;
-left: 380px;
+left:30%;
 top: 2529px;
 }
 .poga{
     position: absolute;
-width: 182px;
+width: 13%;
 height: 62px;
-left: 592px;
+left: 44%;
 top: 2615px;
 
 font-family: Montserrat;
@@ -359,32 +334,36 @@ background: #FFCB66;
 }
 .teikums{
     position: absolute;
-width: 241.95px;
+width: 15%;
 height: 80px;
-left: 168px;
+left: 10%;
 top: 3045px;
+padding: 10px;
 
 }
 .sem-logo{
     position: absolute;
-width: 209.32px;
+width: 13%;
 height: 80px;
-left: 495px;
+left: 30%;
 top: 3045px;
+padding: 10px;
 }
 .citybee{
     position: absolute;
-width: 238.96px;
+width: 14%;
 height: 80px;
-left: 789px;
+left: 50%;
 top: 3045px;
+padding: 10px;
 }
 .linearis{
     position: absolute;
-width: 84.77px;
+width: 5%;
 height: 120px;
-left: 1113px;
+left: 70%;
 top: 3026px;
+padding: 10px;
 }
 .ripped3{
     position: absolute;
@@ -399,9 +378,8 @@ background-size: cover; /* Resize the background image to cover the entire conta
 }
 .atbalstitaji-text{
     position: absolute;
-width: 394px;
+width: 100%;
 height: 29px;
-left: 486px;
 top: 2900px;
 
 font-family: Oswald;
@@ -417,7 +395,7 @@ color: #2F4858;
     position: absolute;
 left: 0%;
 right: 0%;
-top: 636.9%;
+top: 626.6%;
 bottom: 0%;
 width: 100%;
 height: 324px;
@@ -428,7 +406,7 @@ background: #2F4858;
     position: absolute;
 left: 0%;
 right: 0%;
-top: 626.6%;
+top: 616.6%;
 bottom: 8.61%;
 width: 100%;
 transform: rotate(-180deg);
