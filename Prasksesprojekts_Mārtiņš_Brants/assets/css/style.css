@@ -5,7 +5,7 @@ html,body{
 }
 
 .topnav {
-width: 1366px;
+width: 100%;
 height: 92.51px;
 left: 0px;
 top: 0px;
@@ -41,10 +41,9 @@ a{
 background: #FFFFFF;
 }
 .sparkle_video{
-width: 1366px;
+width: 100%;
 position:absolute;
 height: 722px;
-left: 0px;
 top: 147px; 
 
 background-image: url("../img/sparkle.png"); /* The image used */
@@ -62,9 +61,8 @@ background-size: cover; /* Resize the background image to cover the entire conta
 }
 .text1{
     position: absolute;
-    width: 661px;
+    width: 100%;
     height: 114px;
-    left: 359px;
     top: 919px;
     
     font-family: Montserrat;
@@ -73,29 +71,33 @@ background-size: cover; /* Resize the background image to cover the entire conta
     font-size: 18px;
     line-height: 22px;
     text-align: center;
+
     
     color: #2F4858;
     
     
 }
-
+.text1-brake{
+    width: 661px;
+    margin: auto;
+}
 .ripped-sparkle{
     position: absolute;
     left: -0.00%;
-    width: 1366px;
+    width: 100%;
     right: 0%;
     top: 24.6%;
     bottom: 96.71%;
 }
 .ripped{
     position: absolute;
-width: 1366px;
+    width: 100%;
 height: 55px;
 top: 1182px;
 }
 .ripped2{
     position: absolute;
-width: 1366px;
+    width: 100%;
 height: 55px;
 left: 0px;
 top: 1526px;
@@ -348,7 +350,7 @@ background-color:#FFA800;
 
 .atbalstitaji{
     position: absolute;
-width: 1366px;
+    width: 100%;
 height: 533.32px;
 left: 0px;
 top: 2827px;
@@ -386,10 +388,14 @@ top: 3026px;
 }
 .ripped3{
     position: absolute;
-width: 1366px;
+    width: 100%;
 height: 55px;
 left: 0px;
 top: 2827px;
+
+background-image: url("../img/ripped.png"); /* The image used */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover; /* Resize the background image to cover the entire container */
 }
 .atbalstitaji-text{
     position: absolute;
@@ -413,7 +419,7 @@ left: 0%;
 right: 0%;
 top: 636.9%;
 bottom: 0%;
-width: 1366px;
+width: 100%;
 height: 324px;
 
 background: #2F4858;
@@ -424,8 +430,12 @@ left: 0%;
 right: 0%;
 top: 626.6%;
 bottom: 8.61%;
-width: 1366px;
+width: 100%;
 transform: rotate(-180deg);
+
+background-image: url("../img/ripped-blue.png"); /* The image used */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover; /* Resize the background image to cover the entire container */
 }
 .GoldenLogo{
     position: absolute;
