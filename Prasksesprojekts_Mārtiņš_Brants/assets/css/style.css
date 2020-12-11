@@ -76,6 +76,14 @@ top: 147px;
     width: 50%;
     margin: auto;
 }
+.text2-brake{
+    width: 61%;
+    margin: auto;
+}
+.text3-brake{
+    width: 45%;
+    margin: auto;
+}
 .ripped-sparkle{
     position: absolute;
     left: -0.00%;
@@ -551,9 +559,8 @@ color: #FFFFFF;
 }
 .title-ideja{
     position: absolute;
-width: 182px;
+width: 100%;
 height: 70px;
-left: 592px;
 top: 205px;
 
 font-family: Oswald;
@@ -561,7 +568,6 @@ font-style: normal;
 font-weight: 500;
 font-size: 48px;
 line-height: 71px;
-display: flex;
 align-items: center;
 text-align: center;
 
@@ -570,9 +576,8 @@ color: #2F4858;
 
 .text-ideja{
     position: absolute;
-width: 606px;
+width: 100%;
 height: 112px;
-left: 380px;
 top: 335px;
 
 font-family: Montserrat;
@@ -595,19 +600,20 @@ color: #2F4858;
   }
   .juris{
     position: absolute;
-    width: 1366px;
+    width: 100%;
     height: 701px;
     left: 0px;
     top: 597px;
     
     background: url(../img/Juris\ \(1\)\ 1.jpg);
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
   }
   .juris-text{
     position: absolute;
-    width: 818px;
+    width: 100%;
     height: 108px;
-    left: 220px;
-    top: 527px;
+    top: 1125px;
     
     font-family: Oswald;
     font-style: normal;
@@ -618,20 +624,25 @@ color: #2F4858;
     
     color: #FFFFFF;
   }
+
   .juris-ripped{
     position: absolute;
-    width: 1366px;
+    width: 100%;
     height: 55px;
     top: 652px;
     
     background: url(../img/ripped.png);
     transform: rotate(-180deg);
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
   }
   .juris-ripped2{
     position: absolute;
-    width: 1366px;
+    width: 100%;
     height: 55px;
     top: -1px;
     
     background: url(../img/ripped.png);
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
   }
