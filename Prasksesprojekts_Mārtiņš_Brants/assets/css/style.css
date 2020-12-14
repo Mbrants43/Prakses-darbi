@@ -378,7 +378,7 @@ padding: 10px;
     width: 100%;
 height: 55px;
 left: 0px;
-top: 2827px;
+top: 2826px;
 
 background-image: url("../img/ripped.png"); /* The image used */
 background-repeat: no-repeat; /* Do not repeat the image */
@@ -412,10 +412,7 @@ background: #2F4858;
 }
 .ripped4{
     position: absolute;
-left: 0%;
-right: 0%;
 top: 616.6%;
-bottom: 8.61%;
 width: 100%;
 transform: rotate(-180deg);
 
