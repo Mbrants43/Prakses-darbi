@@ -643,3 +643,97 @@ color: #2F4858;
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
   }
+  .footer_ideja{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 1918.6%;
+    bottom: 0%;
+    width: 100%;
+    height: 324px;
+    
+    background: #2F4858;
+  }
+  .ripped4_ideja{
+    position: absolute;
+    top: 1853.6%;
+    width: 100%;
+    transform: rotate(-180deg);
+    
+    background-image: url("../img/ripped-blue.png"); /* The image used */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+
+
+  .text-title-brake{
+      width: 50%;
+      margin: auto;
+
+      font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+
+color: #2F4858;
+  }
+  .text-title{
+    position: absolute;
+width: 100%;
+height: 204px;
+top: 1353px;
+
+
+  }
+  .text-title-p{
+    width: 50%;
+    margin: auto;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    
+    color: #2F4858;
+    
+    
+  }
+  .text-title-p2{
+    width: 50%;
+    margin: auto;
+    padding-top: 40px;
+
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    
+    color: #2F4858;
+  }
+
+  
+  .right {
+
+border: 2px solid #2F4858;
+transform: rotate(-90deg);
+  }
+  
+  .left {
+
+border: 2px solid rgba(47, 72, 88, 0.5);
+transform: rotate(90deg);
+  }
+  .buttons-ideja{
+    position: absolute;
+    width: 100%;
+    height: 12px;
+    top: 1562px;
+    left: 25%;
+  }
