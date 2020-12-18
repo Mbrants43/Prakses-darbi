@@ -737,3 +737,168 @@ transform: rotate(90deg);
     top: 1562px;
     left: 25%;
   }
+  .title-piesaki-sapni{
+    position: absolute;
+    width: 100%;
+    height: 71px;
+    top: 205px;
+    
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 71px;
+    align-items: center;
+    text-align: center;
+    
+    color: #2F4858;
+  }
+
+  .piesaki-sapni-text{
+    position: absolute;
+    width: 100%;
+    height: 31px;
+    top: 336px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    
+    color: #2F4858;
+  }
+
+  .piesaki-sapni-b1{
+    position: absolute;
+    width: 14%;
+    height: 198px;
+    left: 20%;
+    top: 457px;
+  }
+
+  .piesaki-sapni-b2{
+    position: absolute;
+    width: 14%;
+    height: 198px;
+    left: 67%;
+    top: 457px;
+    
+    
+}
+.piesaki-sapni-h1{
+    position: absolute;
+    width: 394px;
+    height: 30px;
+    left: 16%;
+    top: 715px;
+    
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #2F4858;
+}
+
+.piesaki-sapni-h2{
+    position: absolute;
+width: 394px;
+height: 30px;
+left: 61%;
+top: 715px;
+
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 44px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #2F4858;
+}
+
+.piesaki-sapni-text1{
+    position: absolute;
+    width: 30%;
+    height: 83px;
+    left:11%;
+    top: 775px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #2F4858;
+}
+
+.piesaki-sapni-text2{
+    position: absolute;
+    width: 30%;
+    height: 176px;
+    left: 58%;
+    top: 775px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    
+    color: #2F4858; 
+}
+
+.piesaki-sapni-button1{
+    position: absolute;
+    width: 17%;
+    height: 50px;
+    left: 17%;
+    top: 1001px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+    background-color: #FFA800;
+    border-radius: 30px;
+border: none;
+}
+
+.piesaki-sapni-button2{
+    position: absolute;
+width: 17%;
+height: 50px;
+left:64%;
+top: 1001px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+background-color: #FFA800;
+border-radius: 30px;
+border: none;
+}
