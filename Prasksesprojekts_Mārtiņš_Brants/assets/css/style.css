@@ -453,7 +453,6 @@ font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
 font-size: 18px;
-line-height: 33px;
 color: #FFFFFF;
 width: 200px;
 }
@@ -901,4 +900,202 @@ color: #FFFFFF;
 background-color: #FFA800;
 border-radius: 30px;
 border: none;
+}
+
+.lauma{
+    position: absolute;
+width: 25%;
+height: 355px;
+left: 0px;
+top: 1222px;
+}
+.brinuma_meita_2{
+    position: absolute;
+width: 25%;
+height: 189px;
+left: 25%;
+top: 1211px;
+}
+.brinuma_meita_3{
+    position: absolute;
+    width: 25%;
+    height: 376px;
+    left: 75%;
+    top: 1211px;
+}
+.arta{
+    position: absolute;
+width: 25%;
+height: 187px;
+left: 25%;
+top: 1400px;
+}
+.lauma_2{
+    position: absolute;
+    width: 25%;
+    height: 376px;
+    left: 50%;
+    top: 1211px;
+}
+
+.ripped_piesaki_sapni{
+    position: absolute;
+    width: 100%;
+    height: 55px;
+    top: 227%;
+
+    background-image: url("../img/ripped.png"); /* The image used */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover; /* Resize the background image to cover the entire container */
+}
+.ripped_piesaki_sapni_2{
+    position: absolute;
+    width: 100%;
+height: 55px;
+left: 0px;
+top: 292%;
+transform: rotate(-180deg);
+
+background-image: url("../img/ripped.png"); /* The image used */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.formasText_2{
+    position: absolute;
+width: 100%;
+height: 48px;
+top: 1750px;
+
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 44px;
+text-align: center;
+color: #2F4858;
+
+
+}
+.inputfield-name_2{
+    position: absolute;
+width: 19%;
+height: 43px;
+left: 30%;
+top: 1853px;
+
+background: rgba(196, 196, 196, 0.4);
+border-radius: 6px;
+border: none;
+}
+.inputfield-email_2{
+    position: absolute;
+width: 19%;
+height: 43px;
+left: 50%;
+top: 1853px;
+
+background: rgba(196, 196, 196, 0.4);
+border-radius: 6px;
+border: none;
+}
+.inputfield-tel_2{
+    position: absolute;
+width: 39%;
+height: 43px;
+left: 30%;
+top: 1911px;
+
+background: rgba(196, 196, 196, 0.4);
+border-radius: 6px;
+border:none;
+}
+.textarea_2{
+    position: absolute;
+width: 39%;
+height: 232px;
+left: 30%;
+top: 1969px;
+
+background: rgba(196, 196, 196, 0.4);
+border-radius: 6px;
+border: none;
+}
+
+.smalltext_2{
+    position: absolute;
+width: 100%;
+height: 25px;
+left: 30%;
+top: 2216px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+color: #2F4858;
+}
+.consent_2{
+    position: absolute;
+width: 38%;
+height: 39px;
+left: 32%;
+top: 2266px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+color: #2F4858;
+}
+.inputCheck_2{
+    position: absolute;
+width: 16px;
+height: 41px;
+left:30%;
+top: 2266px;
+}
+.poga_2{
+    position: absolute;
+width: 13%;
+height: 62px;
+left: 44%;
+top: 2355px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+align-items: center;
+text-align: center;
+border-radius: 30px;
+border: none;
+
+color: #FFFFFF;
+background-color:#FFA800;
+}
+
+.footer_piesaki_sapni{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 507.6%;
+    bottom: 0%;
+    width: 100%;
+    height: 324px;
+    background: #2F4858;
+}
+
+.ripped_piesaki_sapni_footer {
+    position: absolute;
+    top: 497.6%;
+    width: 100%;
+    transform: rotate(-180deg);
+    background-image: url(../img/ripped-blue.png);
+    background-size: cover;
 }
